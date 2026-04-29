@@ -42,7 +42,10 @@ namespace Employee_Performance_and_Salary_System_with_OOP.Entities
             return _basicSalary;
         }
 
-
+        public void setBonus(double bonus)
+        {
+            _bonus = bonus;
+        }
         public double getBonus()
         {
             return _bonus;
