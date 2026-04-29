@@ -11,7 +11,7 @@ namespace Employee_Performance_and_Salary_System_with_OOP.Entities
         private int _id;
         private string _name;
         private double _basicSalary;
-
+        private double _bonus;
 
         private EmployeeType _EmployeeType;
 
@@ -43,10 +43,17 @@ namespace Employee_Performance_and_Salary_System_with_OOP.Entities
         }
 
 
+        public double getBonus()
+        {
+            return _bonus;
+        }
+
         public EmployeeType getType()
         {
             return _EmployeeType;
         }
+
+        
 
     }
 }
